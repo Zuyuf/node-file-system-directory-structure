@@ -9,7 +9,7 @@ import { getDbConnection } from './index';
             await DB.exec(`CREATE TABLE file_systems (
                 id              INTEGER     PRIMARY KEY AUTOINCREMENT,
                 element_name    VARCHAR(255)    NOT NULL,
-                element_type    INT     NOT NULL,
+                element_type    VARCHAR(25)     NOT NULL,
                 content         TEXT    NOT NULL,
                 created_at      TEXT    NOT NULL,
                 updated_at      TEXT    NOT NULL
