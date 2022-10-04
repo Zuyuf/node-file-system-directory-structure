@@ -1,0 +1,20 @@
+{
+  "name": "file-system-directory-structure",
+  "version": "1.0.0",
+  "description": "File System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zuyuf/node-file-system-directory-structure.git"
+  },
+  "keywords": [],
+  "author": "Zuyufullah Manna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zuyuf/node-file-system-directory-structure/issues"
+  },
+  "homepage": "https://github.com/Zuyuf/node-file-system-directory-structure#readme"
+}
