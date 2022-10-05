@@ -4,7 +4,10 @@
   "description": "File System",
   "main": "index.js",
   "scripts": {
-    "setup-db": "npx ts-node ./db/db_setup.ts"
+    "setup-db": "npx ts-node ./db/setup_db.ts",
+    "unit-test": "jest",
+    "unit-test:dev": "jest -- scan.test",
+    "dev": "npx ts-node ./temp.ts"
   },
   "repository": {
     "type": "git",
